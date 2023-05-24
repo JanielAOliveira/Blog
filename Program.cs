@@ -2,6 +2,7 @@
 using Blog;
 using Blog.Models;
 using Blog.Repositories;
+using Blog.Screens.RoleScreens;
 using Blog.Screens.TagScreens;
 using Blog.Screens.UserScreens;
 using Dapper.Contrib.Extensions;
@@ -47,7 +48,7 @@ internal class Program
                 MenuUserScreen.Load();
                 break;
             case 2:
-                CreateTagScreen.Load();
+                MenuRolesScreen.Load();
                 break;
             case 3:
                 UpdateTagScreen.Load();
@@ -56,7 +57,7 @@ internal class Program
                 MenuTagScreen.Load();
                 break;
             case 5:
-                CreateTagScreen.Load();
+                ListRolesScreen.Load();
                 break;
             case 6:
                 UpdateTagScreen.Load();

@@ -30,7 +30,7 @@ public static class MenuUserScreen
                 UpdateUserScreen.Load();
                 break;
             case 4:
-                //DeleteTagScreen.Load();
+                DeleteUserScreen.Load();
                 break;
             default: Load(); break;
         }
